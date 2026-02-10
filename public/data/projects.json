@@ -1,0 +1,51 @@
+[
+    {
+    "id": "proj-001",
+    "title": "IIoT Controller Demo Kit",
+    "type": "IIoT / Embedded",
+    "image": "/image_project/IIoT Controller Demo Kit3.png",
+    "explanation": "Developed an IIoT controller demo kit with a local mobile application enabling real-time relay ON/OFF control, synchronized operation between mobile app, and display for live status monitoring."
+    },
+    {
+        "id": "proj-004",
+        "title": "Production OEE Monitoring System",
+        "type": "Automation / Analytics",
+        "image": "/image_project/oee.png",
+        "explanation": "Developed a production OEE monitoring solution to track machine runtime, downtime, and performance metrics, enabling data-driven productivity improvements."
+    },
+    {
+        "id": "proj-003",
+        "title": "Vision-Based Product Inspection System",
+        "type": "Vision / Automation",
+        "image": "/image_project/vision8.png",
+        "explanation": "Designed and deployed a vision-based inspection system for automated defect detection, dimensional verification, and quality assurance on production lines."
+    },
+    {
+        "id": "proj-002",
+        "title": "Industrial Wireless Communication System",
+        "type": "Communication / Networking",
+        "image": "/image_project/Industrial Wireless Communication System.png",
+        "explanation": "Implemented a long-range industrial wireless communication system enabling reliable data transmission between machines and control systems across the plant, supporting stable wireless connectivity up to 1 km in industrial environments."
+    },
+    {
+        "id": "proj-007",
+        "title": "Industrial Tank Level Monitoring System",
+        "type": "Instrumentation / Automation",
+        "image": "/image_project/tank.png",
+        "explanation": "Developed an automated tank level monitoring system using industrial sensors and PLC integration to provide real-time level indication, alarms, and data logging."
+    },
+    {
+        "id": "proj-006",
+        "title": "RFID-Based Fluid Dispenser System",
+        "type": "RFID / Automation",
+        "image": "/image_project/rfid1.png",
+        "explanation": "Implemented an RFID-enabled fluid dispensing system to ensure controlled dispensing, user authentication, and accurate consumption tracking."
+    },
+    {
+        "id": "proj-005",
+        "title": "PLC–SCADA Application",
+        "type": "PLC / SCADA",
+        "image": "/image_project/plc.png",
+        "explanation": "Engineered a PLC–SCADA based application for real-time process monitoring, control, alarm management, and historical data logging."
+    }
+]

@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased text-gray-800 bg-white overflow-x-hidden;
+  }
+
+  /* Custom Scrollbar for horizontal scrolling containers */
+  .hover-scrollbar {
+    overflow-x: auto;
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: transparent transparent; /* Firefox default: thumb track */
+    transition: scrollbar-color 0.3s;
+  }
+
+  .hover-scrollbar:hover {
+    scrollbar-color: #cbd5e1 transparent; /* Firefox hover: thumb track */
+  }
+
+  .hover-scrollbar::-webkit-scrollbar {
+    height: 6px; /* Horizontal scrollbar height */
+  }
+
+  .hover-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .hover-scrollbar::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+
+  .hover-scrollbar:hover::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1; /* Gray-300 */
+  }
+}
+
+/* Custom theme colors since we removed tailwind.config.js - using CSS variables or utility class mapping approach */
+@theme {
+  --color-primary: #0056b3;
+  --color-secondary: #1a202c;
+  --color-light-grey: #f3f4f6;
+}

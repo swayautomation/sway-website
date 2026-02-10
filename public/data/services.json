@@ -1,0 +1,480 @@
+[
+  {
+    "id": "svc-vis-qual",
+    "name": "Vision-Based Automation",
+    "category": "Vision & Identification",
+    "thumbnail": "/images_service/vision8.png",
+    "shortDescription": "Automated quality control with machine vision.",
+    "fullDescription": "Eliminate defects with our vision-based automation. We implement advanced algorithms for dimensional measurement, presence verification, and cosmetic inspection.",
+    "specs": [
+      "Defect detection algorithms",
+      "Dimensional measurement",
+      "Presence/Absence verification",
+      "Color sorting"
+    ],
+    "images": [
+      "vision-automation.jpg"
+    ]
+  },
+  {
+    "id": "svc-plc-prog",
+    "name": "PLC HMI Programming & Configuration",
+    "category": "PLC, HMI & SCADA programming",
+    "thumbnail": "/images_service/6.png",
+    "shortDescription": "Reliable PLC-based automation for machines and production lines.",
+    "fullDescription": "We deliver complete PLC programming and industrial automation solutions for new and existing machines. Our services include logic development, sensor teaching, actuator control, safety configuration, and seamless integration with plant-wide automation systems.",
+    "specs": [
+      "Logic development for Siemens, Allen-Bradley, Mitsubishi PLCs",
+      "Structured text and ladder logic programming",
+      "PID control and advanced process loops",
+      "Safety logic implementation"
+    ],
+    "images": [
+      "plc-programming.jpg"
+    ]
+  },
+  {
+    "id": "svc-emb-hw",
+    "name": "Embedded Hardware & PCB Design",
+    "category": "Embedded Systems",
+    "thumbnail": "/images_service/PCB Design.png",
+    "shortDescription": "End-to-end embedded hardware and PCB design services.",
+    "fullDescription": "We provide complete embedded hardware development from system architecture to production-ready PCB design. Our services include microcontroller selection, schematic design, signal-integrity-aware PCB layout, and EMI/EMC-compliant hardware optimized for manufacturability.",
+    "specs": [
+      "System architecture and microcontroller selection (ST, PIC, AVR)",
+      "Schematic capture and circuit design",
+      "Multi-layer PCB layout with signal integrity focus",
+      "Power management and protection design",
+      "Prototype fabrication support",
+      "EMI/EMC compliance and DFM optimization"
+    ],
+    "images": [
+      "/images_service/embedded-hardware-pcb.jpg"
+    ]
+  },
+  {
+    "id": "svc-hist-log",
+    "name": "Historical Data Logging & Report Generation",
+    "category": "Software / IIoT",
+    "thumbnail": "/images_service/history.png",
+    "shortDescription": "Long-term data archiving for compliance and analysis.",
+    "fullDescription": "Ensure regulatory compliance and gain process insights with our historical data logging services. We implement high-speed data acquisition and secure long-term storage.",
+    "specs": [
+      "Long-term data retention",
+      "High-speed data acquisition",
+      "Event reconstruction tools",
+      "Regulatory compliance reporting"
+    ],
+    "images": [
+      "data-logging.jpg"
+    ]
+  },
+  {
+    "id": "svc-scada-dev",
+    "name": "SCADA & HMI Development",
+    "category": "PLC, HMI & SCADA programming",
+    "thumbnail": "/images_service/23.png",
+    "shortDescription": "Intuitive HMI and SCADA interfaces for plant-wide control.",
+    "fullDescription": "We design user-friendly HMI and SCADA systems that provide operators with clear visibility and control over industrial processes, featuring advanced alarm management and trending.",
+    "specs": [
+      "Intuitive UI/UX design for operators",
+      "Alarm management and logging",
+      "Trend visualization",
+      "User access control and security"
+    ],
+    "images": [
+      "scada-hmi.jpg"
+    ]
+  },
+  {
+    "id": "svc-plc-panel",
+    "name": "PLC Panel Design & Integration",
+    "category": "PLC, HMI & SCADA programming",
+    "thumbnail": "/images_service/PLC Panel Design & Integration.png",
+    "shortDescription": "End-to-end PLC control panel design, wiring, and commissioning.",
+    "fullDescription": "We design and integrate industrial PLC control panels with a strong focus on safety, reliability, and maintainability. Our solutions include cabinet design, wiring, field device integration, testing, and full system commissioning.",
+    "specs": [
+      "Custom control panel layout and wiring",
+      "Electrical schematic generation",
+      "Component selection and sizing",
+      "Safety relay integration"
+    ],
+    "images": [
+      "plc-panel.jpg"
+    ]
+  },
+  {
+    "id": "svc-plc-upg",
+    "name": "PLC Upgrade & Migration",
+    "category": "PLC, HMI & SCADA programming",
+    "thumbnail": "/images_service/4.png",
+    "shortDescription": "Legacy to modern PLC migration and code optimization.",
+    "fullDescription": "We facilitate smooth migration from legacy systems to modern PLCs, ensuring minimal downtime and improved system performance through code conversion and hardware replacement.",
+    "specs": [
+      "Legacy to modern PLC migration",
+      "Code conversion and optimization",
+      "Hardware replacement with minimal downtime",
+      "System validation after upgrade"
+    ],
+    "images": [
+      "plc-upgrade.jpg"
+    ]
+  },
+  {
+    "id": "svc-rem-plc",
+    "name": "Remote PLC Monitoring",
+    "category": "PLC, HMI & SCADA programming",
+    "thumbnail": "/images_service/15.png",
+    "shortDescription": "Secure remote access and monitoring for industrial systems.",
+    "fullDescription": "Monitor and troubleshoot your systems from anywhere with our secure remote access solutions. Real-time status updates and remote debugging reduce travel costs and downtime.",
+    "specs": [
+      "VPN-based remote access",
+      "Real-time status monitoring",
+      "Remote debugging and program updates",
+      "Alarm notification via SMS/Email"
+    ],
+    "images": [
+      "remote-plc.jpg"
+    ]
+  },
+  {
+    "id": "svc-emb-sw",
+    "name": "Embedded Firmware & Edge Computing",
+    "category": "Embedded Systems",
+    "thumbnail": "/images_service/edge2.png",
+    "shortDescription": "Firmware, RTOS, and edge intelligence for embedded devices.",
+    "fullDescription": "We develop reliable embedded software ranging from low-level firmware and RTOS-based systems to edge computing solutions with local data processing and AI/ML capabilities. Our approach ensures deterministic control, low-latency decision-making, and secure edge-to-cloud integration.",
+    "specs": [
+      "C/C++ firmware development",
+      "RTOS implementation and task scheduling",
+      "Device driver and BSP development",
+      "Bootloader design and firmware updates",
+      "Local data processing and edge analytics",
+      "Secure edge-to-cloud synchronization"
+    ],
+    "images": [
+      "/images_service/embedded-firmware-edge.jpg"
+    ]
+  },
+  {
+    "id": "svc-desktop-monitoring",
+    "name": "Desktop Machine Monitoring Application",
+    "category": "Software / IIoT",
+    "thumbnail": "/images_service/Desktop.png",
+    "shortDescription": "Desktop-based application for real-time and historical machine monitoring with secure remote access.",
+    "fullDescription": "Monitor industrial machines using a dedicated desktop application built for continuous operation and performance. The system provides secure remote access to real-time and historical machine data, enabling analysis of trends, machine behavior, and operational performance without any browser-based dashboards or reporting modules.",
+    "specs": [
+      "Desktop application for machine monitoring",
+      "Real-time machine data visualization",
+      "Historical machine data storage and analysis",
+      "Trend analysis and time-series views",
+      "Secure remote access to machine data",
+      "Cloud or on-premise backend support"
+    ],
+    "images": [
+      "desktop-monitoring.jpg"
+    ]
+  },
+  {
+    "id": "svc-act-int",
+    "name": "Actuator Integration with PLC",
+    "category": "PLC, HMI & SCADA programming",
+    "thumbnail": "/images_service/Actuator.png",
+    "shortDescription": "Precision control for valves, electric actuators, and grippers.",
+    "fullDescription": "We integrate pneumatic, hydraulic, and electric actuators with your PLC systems for precise motion and force control in automated workflows.",
+    "specs": [
+      "Pneumatic and hydraulic valve control",
+      "Electric actuator interfacing",
+      "Position feedback integration",
+      "Precision force control"
+    ],
+    "images": [
+      "actuator-integration.jpg"
+    ]
+  },
+  {
+    "id": "svc-vfd-servo",
+    "name": "VFD & Servo Drive Commissioning",
+    "category": "PLC, HMI & SCADA programming",
+    "thumbnail": "/images_service/13.png",
+    "shortDescription": "Expert commissioning for variable frequency and servo drives.",
+    "fullDescription": "Optimize your motor control with our VFD and servo drive commissioning services. We handle parameter tuning, multi-axis synchronization, and energy efficiency settings.",
+    "specs": [
+      "Drive parameterization and tuning",
+      "Multi-axis synchronization",
+      "Energy saving mode configuration",
+      "Torque and speed control modes"
+    ],
+    "images": [
+      "vfd-servo.jpg"
+    ]
+  },
+  {
+    "id": "svc-step-mot",
+    "name": "Stepper Motor Drive Commissioning",
+    "category": "PLC, HMI & SCADA programming",
+    "thumbnail": "/images_service/Stepper Motor Drive Commissioning.png",
+    "shortDescription": "Precision position control with stepper motor systems.",
+    "fullDescription": "We configure stepper motor drives for high-accuracy positioning applications, ensuring smooth acceleration profiles and reliable open/closed-loop control.",
+    "specs": [
+      "Micro-stepping configuration",
+      "Open and closed-loop control",
+      "Acceleration and deceleration profiling",
+      "Homing and limit switch integration"
+    ],
+    "images": [
+      "stepper-motor.jpg"
+    ]
+  },
+  {
+    "id": "svc-iiot-edge-cloud",
+    "name": "IIoT Gateway & Cloud Connectivity",
+    "category": "Software / IIoT",
+    "thumbnail": "/images_service/iot.png",
+    "shortDescription": "Secure edge gateway setup with seamless industrial cloud integration.",
+    "fullDescription": "This service combines IIoT gateway configuration with secure cloud connectivity. We deploy and configure industrial gateways for multi-protocol machine data aggregation, edge buffering, and reliable data transmission to cloud platforms such as AWS, Azure, and Google Cloud using MQTT and HTTPS.",
+    "specs": [
+      "Secure IIoT gateway configuration",
+      "Multi-protocol machine data aggregation",
+      "Edge buffering and store-and-forward",
+      "MQTT / HTTPS cloud integration",
+      "Data encryption and security",
+      "Scalable edge-to-cloud architecture"
+    ],
+    "images": [
+      "iiot-edge-cloud.jpg"
+    ]
+  },
+  {
+    "id": "svc-bar-qr",
+    "name": "Barcode & QR Code Automation",
+    "category": "Vision & Identification",
+    "thumbnail": "/images_service/Barcode & QR Code Automation3.png",
+    "shortDescription": "High-speed reading for traceability systems.",
+    "fullDescription": "Ensure full traceability with our barcode and QR code automation. We integrate high-speed readers for serialized data handling and logistics sorting.",
+    "specs": [
+      "High-speed code reading",
+      "Data Matrix verification",
+      "Serialized data handling",
+      "Label printing integration"
+    ],
+    "images": [
+      "barcode-scanner.jpg"
+    ]
+  },
+  {
+    "id": "svc-iiot-field-integration",
+    "name": "Sensor & IIoT I/O Integration",
+    "category": "Software / IIoT",
+    "thumbnail": "/images_service/IIoT.png",
+    "shortDescription": "Field-level sensor and distributed I/O integration for IIoT systems.",
+    "fullDescription": "This service focuses on field data acquisition using wireless sensors and distributed IIoT I/O modules. We integrate battery-powered wireless sensors and Modbus TCP/IP I/O modules to enable scalable, low-power, and reliable data collection for industrial monitoring and control applications.",
+    "specs": [
+      "Direct sensor data acquisition",
+      "Wireless sensor networks (LoRa / NB-IoT)",
+      "Battery-powered low-power solutions",
+      "Distributed IIoT I/O configuration",
+      "Modbus TCP/IP programming",
+      "Data scaling and formatting",
+      "I/O and sensor health monitoring"
+    ],
+    "images": [
+      "iiot-field-integration.jpg"
+    ]
+  },
+  {
+    "id": "svc-machine-runtime",
+    "name": "Machine Runtime Monitoring",
+    "category": "Software / IIoT",
+    "thumbnail": "/images_service/Machine Runtime Monitoring.png",
+    "shortDescription": "Real-time monitoring of machine running, idle, and stopped conditions.",
+    "fullDescription": "Our machine runtime monitoring solution provides real-time visibility into machine operating status, including run time, idle time, and downtime. By capturing accurate machine state data through PLCs, sensors, or IIoT devices, the system helps manufacturers analyze utilization, improve productivity, and reduce unplanned stoppages. Data is visualized through dashboards and can be logged for historical analysis and reporting.",
+    "specs": [
+      "Real-time machine run, idle, and stop status",
+      "PLC and sensor-based runtime data acquisition",
+      "Shift-wise and daily runtime reporting",
+      "Downtime tracking and event logging",
+      "Dashboard visualization for operators and management",
+      "Historical data storage for performance analysis"
+    ],
+    "images": [
+      "machine-runtime.jpg"
+    ]
+  },
+  {
+    "id": "svc-rfid",
+    "name": "RFID-Based Automation",
+    "category": "Vision & Identification",
+    "thumbnail": "/images_service/RFID-Based Automation5.png",
+    "shortDescription": "Contactless tracking for inventory and assets.",
+    "fullDescription": "Optimize inventory and asset management with RFID automation. tailored solutions for UHF/HF RFID reading, tag encoding, and middleware integration.",
+    "specs": [
+      "UHF/HF RFID implementation",
+      "Tag encoding and reading",
+      "Bulk reading capabilities",
+      "Middle-ware integration"
+    ],
+    "images": [
+      "rfid-tracking.jpg"
+    ]
+  },
+  {
+    "id": "svc-spm-cont",
+    "name": "SPM Embedded Controller Solutions",
+    "category": "Embedded Systems",
+    "thumbnail": "/images_service/SPM4.png",
+    "shortDescription": "Dedicated controllers for Special Purpose Machines.",
+    "fullDescription": "Cost-effective and ruggedized embedded controllers designed specifically for Special Purpose Machines (SPMs) in textile, packaging, and testing industries.",
+    "specs": [
+      "Dedicated controllers for Special Purpose Machines",
+      "Integrated I/O and HMI",
+      "Cost-effective volume production",
+      "Ruggedized hardware"
+    ],
+    "images": [
+      "spm-controller.jpg"
+    ]
+  },
+  {
+    "id": "svc-sense-int",
+    "name": "Sensor & Actuator Integration",
+    "category": "Sensors, Measurement & Control",
+    "thumbnail": "/images_service/Sensor & Actuator Integration3.png",
+    "shortDescription": "Seamless field device integration for automation.",
+    "fullDescription": "We expertly select and integrate appropriate sensors and actuators into your control loops, ensuring accurate signal conditioning and reliable noise-free operation.",
+    "specs": [
+      "Selection of appropriate sensor technologies",
+      "Signal conditioning and amplification",
+      "Noise filtering",
+      "Wiring and mounting solutions"
+    ],
+    "images": [
+      "sensor-integration.jpg"
+    ]
+  },
+  {
+    "id": "svc-sense-teach",
+    "name": "Sensor Teaching & Calibration",
+    "category": "Sensors, Measurement & Control",
+    "thumbnail": "/images_service/Sensor2.png",
+    "shortDescription": "Configuration and calibration for optimal accuracy.",
+    "fullDescription": "Maximize sensor performance with our teaching and calibration services. We handle component setup, threshold configuration, and zero-point adjustments.",
+    "specs": [
+      "Threshold configuration",
+      "Zero-point and span adjustment",
+      "Teach-in programming",
+      "Periodic verification plans"
+    ],
+    "images": [
+      "sensor-calibration.jpg"
+    ]
+  },
+  {
+    "id": "svc-process-mon-ctrl",
+    "name": "Flow, Temperature & Pressure Monitoring & Control",
+    "category": "Sensors, Measurement & Control",
+    "thumbnail": "/images_service/temp2.png",
+    "shortDescription": "Integrated flow, temperature, and pressure measurement and control systems.",
+    "fullDescription": "Comprehensive process monitoring and control solutions covering flow, temperature, and pressure parameters. We deliver accurate measurement, closed-loop control, and protection strategies for water, chemicals, gases, fuels, hydraulic, pneumatic, thermal, and HVAC systems to improve safety, efficiency, and process reliability.",
+    "specs": [
+      "Liquid and gas flow measurement",
+      "Valve position and flow control",
+      "Thermocouple and RTD integration",
+      "PID temperature control loops",
+      "Thermal profiling and over-temperature protection",
+      "Hydraulic and pneumatic pressure monitoring",
+      "Pressure regulation control loops",
+      "Leak testing algorithms"
+    ],
+    "images": [
+      "pressure-control.jpg"
+    ]
+  },
+  {
+    "id": "svc-ind-comm",
+    "name": "Industrial Protocol Conversion",
+    "category": "Communication & Networking",
+    "thumbnail": "/images_service/Industrial Protocol Conversion4.png",
+    "shortDescription": "Seamless data flow between different networks.",
+    "fullDescription": "Break down communication barriers in your factory. A service dedicated to converting Profibus, Profinet, Ethernet/IP and serial data for unified system operation.",
+    "specs": [
+      "Profibus, Profinet, EthIP conversion",
+      "Serial to Ethernet gateways",
+      "Protocol analysis and debugging",
+      "Network segmentation"
+    ],
+    "images": [
+      "protocol-conversion.jpg"
+    ]
+  },
+  {
+    "id": "svc-volt-curr",
+    "name": "Voltage & Current Monitoring",
+    "category": "Sensors, Measurement & Control",
+    "thumbnail": "/images_service/Voltage & Current Monitoring.png",
+    "shortDescription": "Energy monitoring and electrical protection.",
+    "fullDescription": "Track energy consumption and protect equipment with our voltage and current monitoring solutions. We implement power quality analysis and over/under voltage protection.",
+    "specs": [
+      "Power quality analysis",
+      "Energy consumption tracking",
+      "Over/Under voltage protection",
+      "Current signature analysis"
+    ],
+    "images": [
+      "power-monitoring.jpg"
+    ]
+  },
+  {
+    "id": "svc-wire-comm",
+    "name": "Wireless Industrial Communication",
+    "category": "Communication & Networking",
+    "thumbnail": "/images_service/Wireless Industrial Communication2.png",
+    "shortDescription": "Reliable long-range wireless communication up to 2 km for industrial environments.",
+    "fullDescription": "Cut the cables with our industrial wireless communication services. We design robust Wi-Fi, LoRa, and BLE networks for AGVs, mobile HMIs, and remote sensors, supporting stable and secure wireless data transmission over long distances.",
+    "specs": [
+      "Industrial Wi-Fi planning and deployment",
+      "Wireless range up to 1 km (L1 – Line-of-Sight)",
+      "Wireless range up to 2 km (L2 – Extended Line-of-Sight)",
+      "Long-range LoRa network design",
+      "Bluetooth Low Energy (BLE) mesh networking",
+      "Robust RF link design for industrial environments"
+    ],
+    "images": [
+      "wireless-comms.jpg"
+    ]
+  },
+  {
+    "id": "svc-panel-des",
+    "name": "Control Panel Design & Wiring",
+    "category": "System Engineering",
+    "thumbnail": "/images_service/Control Panel Design & Wiring3.png",
+    "shortDescription": "IEC compliant panel builds and wiring.",
+    "fullDescription": "Professional control panel design and build services. We utilize space-optimized layouts and thermal management to deliver IEC-standard MCC and PLC panels.",
+    "specs": [
+      "IEC standard design",
+      "Space-optimized layout",
+      "Thermal management",
+      "Professional labeling and finishing"
+    ],
+    "images": [
+      "panel-design.jpg"
+    ]
+  },
+  {
+    "id": "svc-safe-dev",
+    "name": "Safety Device Integration",
+    "category": "System Engineering",
+    "thumbnail": "/images_service/Safety Device Integration3.png",
+    "shortDescription": "Light curtains, scanners, and E-stop systems.",
+    "fullDescription": "Prioritize safety without compromising productivity. We integrate light curtains, laser scanners, and E-stop circuits into your machine control systems.",
+    "specs": [
+      "Light curtain setup",
+      "Safety scanner configuration",
+      "E-stop circuit design",
+      "Safety relay programming"
+    ],
+    "images": [
+      "safety-devices.jpg"
+    ]
+  }
+]

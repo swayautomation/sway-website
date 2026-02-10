@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ind-001",
+    "name": "Automotive",
+    "solutions": "Vision-based inspection systems, RFID-based traceability, PLC–SCADA integration for assembly and testing lines.",
+    "image": "/image_industry/5.jpg"
+  },
+  {
+    "id": "ind-002",
+    "name": "Pharmaceuticals",
+    "solutions": "Batch process automation, SCADA-based monitoring, data logging with compliance-oriented system design.",
+    "image": "/image_industry/4.webp"
+  },
+  {
+    "id": "ind-003",
+    "name": "FMCG",
+    "solutions": "High-speed conveyor automation, barcode and QR code-based tracking, production dashboards and reporting.",
+    "image": "/image_industry/6.jpg"
+  },
+  {
+    "id": "ind-004",
+    "name": "Steel Industries",
+    "solutions": "PLC–SCADA based automation for furnaces, rolling mills, and material handling systems, including SCADA-based automation, wireless data transmission, real-time energy monitoring, and centralized production dashboards.",
+    "image": "/image_industry/7.jpg"
+  },
+  {
+    "id": "ind-008",
+    "name": "Discrete Manufacturing Plants",
+    "solutions": "Production OEE monitoring, machine downtime alerting, PLC-based machine automation, barcode/RFID traceability, and IIoT dashboards for real-time shop-floor visibility.",
+    "image": "/image_industry/3.webp"
+  },
+  {
+    "id": "ind-006",
+    "name": "Electronics Manufacturing",
+    "solutions": "Precision automation systems, vision-based inspection, barcode-based traceability, and production data analytics.",
+    "image": "/image_industry/8.jpg"
+  },
+  {
+    "id": "ind-007",
+    "name": "Oil & Gas",
+    "solutions": "Remote monitoring systems, PLC–SCADA integration, pressure and flow control, tank monitoring, IIoT-based data logging, and safety-critical automation solutions.",
+    "image": "/image_industry/9.webp"
+  },
+  {
+    "id": "ind-005",
+    "name": "Warehousing & Logistics",
+    "solutions": "RFID and barcode-based inventory tracking, scanner–printer integration, and warehouse automation systems.",
+    "image": "/image_industry/10.jpg"
+  },
+  {
+    "id": "ind-009",
+    "name": "Apparels & Garment",
+    "solutions": "SPM controller-based automation, motor drive control, production tracking, energy monitoring, machine downtime alerts, and centralized dashboards for line efficiency improvement.",
+    "image": "/image_industry/11.jpg"
+  }
+]
+

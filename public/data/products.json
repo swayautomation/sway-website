@@ -1,0 +1,55 @@
+[
+    {
+    "id": "prod-002",
+    "name": "Vision-Based Product Inspection System",
+    "category": "Vision & Quality Control",
+    "thumbnail": "/image_product/vision5.png",
+    "shortDescription": "Automated visual inspection for quality assurance.",
+    "fullDescription": "The Vision-Based Product Inspection System uses industrial cameras and intelligent image processing to detect defects, verify dimensions, and ensure product quality in real time. It improves inspection accuracy while reducing manual intervention and rejection costs.",
+    "specs": [
+      "High-resolution industrial camera support",
+      "Real-time defect detection",
+      "Presence/absence and dimensional verification",
+      "PLC and production line integration"
+    ],
+    "images": [
+      "/image_product/vision5.png",
+      "/image_product/vision8.png",
+      "/image_product/vision9.png"
+    ]
+  },
+  {
+    "id": "prod-001",
+    "name": "Automated Fluid Dispenser System",
+    "category": "Industrial Automation",
+    "thumbnail": "/image_product/dispensing4.png",
+    "shortDescription": "High-precision automated fluid dispensing for industrial processes.",
+    "fullDescription": "The Automated Fluid Dispenser System is designed for accurate and repeatable dispensing of liquids in manufacturing environments. The system integrates PLC-based control, flow monitoring, and recipe management to ensure consistent output, reduced wastage, and improved process reliability.",
+    "specs": [
+      "PLC-based control with recipe management",
+      "High-accuracy flow and volume control",
+      "Support for multiple fluid types",
+      "Alarm and fault monitoring"
+    ],
+    "images": [
+      "fluid-dispenser-1.jpg"
+    ]
+  },
+  {
+    "id": "prod-003",
+    "name": "Industrial Tank Level Monitoring & Control System",
+    "category": "Process Monitoring & Control",
+    "thumbnail": "/image_product/tank.png",
+    "shortDescription": "Reliable monitoring and automation of industrial tank levels.",
+    "fullDescription": "The Industrial Tank Level Monitoring & Control System provides continuous level measurement, automated pump and valve control, and alarm handling for safe and efficient tank operations. It supports local SCADA visualization and optional remote monitoring.",
+    "specs": [
+      "Support for ultrasonic, radar, and pressure sensors",
+      "Automatic pump and valve control",
+      "High and low level alarm management",
+      "SCADA and IIoT-ready architecture"
+    ],
+    "images": [
+      "tank-level-1.jpg"
+    ]
+  }
+]
