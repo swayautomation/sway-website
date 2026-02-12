@@ -87,65 +87,65 @@ const Projects = () => {
                 )}
             </div>
             {isOpen && (
-                <div className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center px-4">
-                    <div className="relative w-full max-w-3xl">
+                <div className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center px-4">
+
+                    <div className="relative w-full max-w-4xl bg-white rounded-2xl shadow-2xl p-6">
 
                         {/* Close */}
                         <button
-                            className="absolute -top-10 right-0 text-white text-2xl"
+                            className="absolute top-4 right-4 text-gray-600 hover:text-black text-xl"
                             onClick={() => setIsOpen(false)}
                         >
                             ✕
                         </button>
 
                         {/* Image */}
-                        <img
-                            src={
-                                projectsData[activeIndex].image?.startsWith('/')
-                                    ? projectsData[activeIndex].image
-                                    : `/img/projects/${projectsData[activeIndex].image}`
-                            }
-                            alt={projectsData[activeIndex].title}
-                            className="w-full max-h-[70vh] object-contain mx-auto rounded-lg bg-white"
-                        />
+                        <div className="flex items-center justify-center">
+                            <img
+                                src={
+                                    projectsData[activeIndex].image?.startsWith('/')
+                                        ? projectsData[activeIndex].image
+                                        : `/img/projects/${projectsData[activeIndex].image}`
+                                }
+                                alt={projectsData[activeIndex].title}
+                                className="max-h-[70vh] w-auto object-contain rounded-lg"
+                            />
+                        </div>
 
                         {/* Title */}
-                        <div className="mt-2 text-center text-sm text-gray-200">
-                            {projectsData[activeIndex].title}
+                        <div className="mt-4 text-center">
+                            <h3 className="text-gray-800 text-2xl font-medium">
+                                {projectsData[activeIndex].title}
+                            </h3>
                         </div>
 
                         {/* Navigation */}
                         <button
-                            className="absolute left-3 top-1/2 -translate-y-1/2 
-             bg-black/60 hover:bg-black/80
-             text-white text-3xl
-             w-12 h-12 rounded-full
-             flex items-center justify-center
-             shadow-lg transition"
+                            className="absolute left-4 top-1/2 -translate-y-1/2 
+                   bg-gray-800/80 hover:bg-gray-900
+                   text-white text-2xl
+                   w-10 h-10 rounded-full
+                   flex items-center justify-center shadow transition"
                             onClick={() =>
                                 setActiveIndex(
                                     activeIndex === 0 ? projectsData.length - 1 : activeIndex - 1
                                 )
                             }
-                            aria-label="Previous image"
                         >
                             ‹
                         </button>
 
-
                         <button
-                            className="absolute right-3 top-1/2 -translate-y-1/2 
-             bg-black/60 hover:bg-black/80
-             text-white text-3xl
-             w-12 h-12 rounded-full
-             flex items-center justify-center
-             shadow-lg transition"
+                            className="absolute right-4 top-1/2 -translate-y-1/2 
+                   bg-gray-800/80 hover:bg-gray-900
+                   text-white text-2xl
+                   w-10 h-10 rounded-full
+                   flex items-center justify-center shadow transition"
                             onClick={() =>
                                 setActiveIndex(
                                     activeIndex === projectsData.length - 1 ? 0 : activeIndex + 1
                                 )
                             }
-                            aria-label="Next image"
                         >
                             ›
                         </button>
@@ -153,6 +153,7 @@ const Projects = () => {
                     </div>
                 </div>
             )}
+
 
         </div>
     );

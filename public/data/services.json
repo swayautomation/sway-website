@@ -17,36 +17,36 @@
     ]
   },
   {
-    "id": "svc-plc-prog",
-    "name": "PLC HMI Programming & Configuration",
+    "id": "svc-rem-plc",
+    "name": "Remote PLC Monitoring",
     "category": "PLC, HMI & SCADA programming",
-    "thumbnail": "/images_service/6.png",
-    "shortDescription": "Reliable PLC-based automation for machines and production lines.",
-    "fullDescription": "We deliver complete PLC programming and industrial automation solutions for new and existing machines. Our services include logic development, sensor teaching, actuator control, safety configuration, and seamless integration with plant-wide automation systems.",
+    "thumbnail": "/images_service/15.png",
+    "shortDescription": "Secure remote access and monitoring for industrial systems.",
+    "fullDescription": "Monitor and troubleshoot your systems from anywhere with our secure remote access solutions. Real-time status updates and remote debugging reduce travel costs and downtime.",
     "specs": [
-      "Logic development for Siemens, Allen-Bradley, Mitsubishi PLCs",
-      "Structured text and ladder logic programming",
-      "PID control and advanced process loops",
-      "Safety logic implementation"
+      "VPN-based remote access",
+      "Real-time status monitoring",
+      "Remote debugging and program updates",
+      "Alarm notification via SMS/Email"
     ],
     "images": [
-      "plc-programming.jpg"
+      "remote-plc.jpg"
     ]
   },
   {
-    "id": "svc-emb-hw",
-    "name": "Embedded Hardware & PCB Design",
-    "category": "Embedded Systems",
-    "thumbnail": "/images_service/PCB Design.png",
-    "shortDescription": "End-to-end embedded hardware and PCB design services.",
-    "fullDescription": "We provide complete embedded hardware development from system architecture to production-ready PCB design. Our services include microcontroller selection, schematic design, signal-integrity-aware PCB layout, and EMI/EMC-compliant hardware optimized for manufacturability.",
+    "id": "svc-ems",
+    "name": "Electronics Manufacturing Services (EMS)",
+    "category": "Electronics Manufacturing",
+    "thumbnail": "/images_service/PCB Design3.png",
+    "shortDescription": "Complete PCB assembly, testing, and electronic product manufacturing services.",
+    "fullDescription": "Our Electronics Manufacturing Services (EMS) provide end-to-end PCB assembly and electronic product manufacturing solutions. We support prototype builds, small-batch production, and full-scale manufacturing with strict quality control. Our services include component sourcing, SMT and through-hole assembly, functional testing, and production-ready documentation to ensure reliable and scalable electronics manufacturing.",
     "specs": [
-      "System architecture and microcontroller selection (ST, PIC, AVR)",
-      "Schematic capture and circuit design",
-      "Multi-layer PCB layout with signal integrity focus",
-      "Power management and protection design",
-      "Prototype fabrication support",
-      "EMI/EMC compliance and DFM optimization"
+      "SMT and through-hole PCB assembly",
+      "Component sourcing and supply chain management",
+      "Prototype and volume production support",
+      "Functional testing and quality inspection",
+      "Box build and complete product assembly",
+      "Quality control and production documentation"
     ],
     "images": [
       "/images_service/embedded-hardware-pcb.jpg"
@@ -54,16 +54,18 @@
   },
   {
     "id": "svc-hist-log",
-    "name": "Historical Data Logging & Report Generation",
+    "name": "Software Development for Historical Data & Report Generation",
     "category": "Software / IIoT",
     "thumbnail": "/images_service/history.png",
-    "shortDescription": "Long-term data archiving for compliance and analysis.",
-    "fullDescription": "Ensure regulatory compliance and gain process insights with our historical data logging services. We implement high-speed data acquisition and secure long-term storage.",
+    "shortDescription": "Secure data logging software for long-term storage, monitoring, and automated report generation.",
+    "fullDescription": "Our historical data logging software enables real-time data capture, secure cloud or local database storage, and automated report generation. It helps industries monitor performance, analyze trends, maintain compliance, and improve operational efficiency using reliable software architecture.",
     "specs": [
-      "Long-term data retention",
-      "High-speed data acquisition",
-      "Event reconstruction tools",
-      "Regulatory compliance reporting"
+      "Long-term database storage",
+      "Real-time data acquisition software",
+      "Automated PDF & Excel report generation",
+      "Trend analysis and data visualization",
+      "Event history tracking",
+      "Regulatory compliance reporting system"
     ],
     "images": [
       "data-logging.jpg"
@@ -73,7 +75,7 @@
     "id": "svc-scada-dev",
     "name": "SCADA & HMI Development",
     "category": "PLC, HMI & SCADA programming",
-    "thumbnail": "/images_service/23.png",
+    "thumbnail": "/images_service/SCADA3.png",
     "shortDescription": "Intuitive HMI and SCADA interfaces for plant-wide control.",
     "fullDescription": "We design user-friendly HMI and SCADA systems that provide operators with clear visibility and control over industrial processes, featuring advanced alarm management and trending.",
     "specs": [
@@ -104,6 +106,23 @@
     ]
   },
   {
+    "id": "svc-plc-prog",
+    "name": "PLC HMI Programming & Configuration",
+    "category": "PLC, HMI & SCADA programming",
+    "thumbnail": "/images_service/6.png",
+    "shortDescription": "Reliable PLC-based automation for machines and production lines.",
+    "fullDescription": "We deliver complete PLC programming and industrial automation solutions for new and existing machines. Our services include logic development, sensor teaching, actuator control, safety configuration, and seamless integration with plant-wide automation systems.",
+    "specs": [
+      "Logic development for Siemens, Allen-Bradley, Mitsubishi PLCs",
+      "Structured text and ladder logic programming",
+      "PID control and advanced process loops",
+      "Safety logic implementation"
+    ],
+    "images": [
+      "plc-programming.jpg"
+    ]
+  },
+  {
     "id": "svc-plc-upg",
     "name": "PLC Upgrade & Migration",
     "category": "PLC, HMI & SCADA programming",
@@ -118,23 +137,6 @@
     ],
     "images": [
       "plc-upgrade.jpg"
-    ]
-  },
-  {
-    "id": "svc-rem-plc",
-    "name": "Remote PLC Monitoring",
-    "category": "PLC, HMI & SCADA programming",
-    "thumbnail": "/images_service/15.png",
-    "shortDescription": "Secure remote access and monitoring for industrial systems.",
-    "fullDescription": "Monitor and troubleshoot your systems from anywhere with our secure remote access solutions. Real-time status updates and remote debugging reduce travel costs and downtime.",
-    "specs": [
-      "VPN-based remote access",
-      "Real-time status monitoring",
-      "Remote debugging and program updates",
-      "Alarm notification via SMS/Email"
-    ],
-    "images": [
-      "remote-plc.jpg"
     ]
   },
   {
@@ -336,23 +338,6 @@
     ]
   },
   {
-    "id": "svc-sense-int",
-    "name": "Sensor & Actuator Integration",
-    "category": "Sensors, Measurement & Control",
-    "thumbnail": "/images_service/Sensor & Actuator Integration3.png",
-    "shortDescription": "Seamless field device integration for automation.",
-    "fullDescription": "We expertly select and integrate appropriate sensors and actuators into your control loops, ensuring accurate signal conditioning and reliable noise-free operation.",
-    "specs": [
-      "Selection of appropriate sensor technologies",
-      "Signal conditioning and amplification",
-      "Noise filtering",
-      "Wiring and mounting solutions"
-    ],
-    "images": [
-      "sensor-integration.jpg"
-    ]
-  },
-  {
     "id": "svc-sense-teach",
     "name": "Sensor Teaching & Calibration",
     "category": "Sensors, Measurement & Control",
@@ -407,18 +392,20 @@
       "protocol-conversion.jpg"
     ]
   },
-  {
+{
     "id": "svc-volt-curr",
-    "name": "Voltage & Current Monitoring",
+    "name": "Energy Management & Power Monitoring System",
     "category": "Sensors, Measurement & Control",
-    "thumbnail": "/images_service/Voltage & Current Monitoring.png",
-    "shortDescription": "Energy monitoring and electrical protection.",
-    "fullDescription": "Track energy consumption and protect equipment with our voltage and current monitoring solutions. We implement power quality analysis and over/under voltage protection.",
+    "thumbnail": "/images_service/Voltage & Current Monitoring1.png",
+    "shortDescription": "Smart energy monitoring, power analysis, and consumption management system.",
+    "fullDescription": "Our Energy Management & Power Monitoring System provides real-time monitoring of voltage, current, power, and energy consumption across industrial facilities. The system helps optimize energy usage, detect abnormalities, reduce operational costs, and ensure electrical safety. It supports data logging, power quality analysis, and integration with PLC, SCADA, or IIoT platforms.",
     "specs": [
-      "Power quality analysis",
-      "Energy consumption tracking",
-      "Over/Under voltage protection",
-      "Current signature analysis"
+      "Real-time voltage, current, and power monitoring",
+      "Energy consumption tracking and reporting",
+      "Power quality and harmonic analysis",
+      "Overload and abnormal condition alerts",
+      "Data logging and trend analysis",
+      "PLC / SCADA / IIoT integration support"
     ],
     "images": [
       "power-monitoring.jpg"

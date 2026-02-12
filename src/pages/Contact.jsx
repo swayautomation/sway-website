@@ -48,7 +48,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h3 className="text-lg font-bold text-gray-900 mb-1">Email</h3>
-                                <p className="text-gray-600 font-mono text-lg">{siteData.contact.email}</p>
+                                <p className="text-gray-600 font-mono text-lg">{siteData.contact.email2}</p>
                             </div>
                         </div>
                     </div>

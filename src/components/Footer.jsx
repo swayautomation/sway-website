@@ -17,7 +17,7 @@ const Footer = () => {
 
                     {/* Company Info */}
                     <div className="col-span-1 md:col-span-1">
-                        <h3 className="text-xl font-bold mb-4 tracking-wider">SWAY Automation</h3>
+                        <h3 className="text-xl font-bold mb-4 tracking-wider">Sway Automation & Technologies</h3>
                         <p className="text-gray-400 text-sm mb-4">
                             {siteData.tagline}
                         </p>
@@ -81,8 +81,18 @@ const Footer = () => {
                             </li>
                             <li className="flex items-center">
                                 <Mail size={18} className="text-primary mr-2 flex-shrink-0" />
-                                <span className="text-gray-400 text-sm">{siteData.contact.email}</span>
+                                <span className="text-gray-400 text-sm">
+                                    {siteData.contact.email2}
+                                </span>
                             </li>
+
+                            <li className="flex items-center">
+                                <Mail size={18} className="text-primary mr-2 flex-shrink-0" />
+                                <span className="text-gray-400 text-sm">
+                                    {siteData.contact.email1}
+                                </span>
+                            </li>
+
                         </ul>
                     </div>
                 </div>

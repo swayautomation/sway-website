@@ -3,7 +3,7 @@
     "id": "proj-001",
     "title": "IIoT Controller Demo Kit",
     "type": "IIoT / Embedded",
-    "image": "/image_project/IIoT Controller Demo Kit3.png",
+    "image": "/image_project/IIoT Controller Demo Kit4.png",
     "explanation": "Developed an IIoT controller demo kit with a local mobile application enabling real-time relay ON/OFF control, synchronized operation between mobile app, and display for live status monitoring."
     },
     {
@@ -14,17 +14,17 @@
         "explanation": "Developed a production OEE monitoring solution to track machine runtime, downtime, and performance metrics, enabling data-driven productivity improvements."
     },
     {
-        "id": "proj-003",
-        "title": "Vision-Based Product Inspection System",
-        "type": "Vision / Automation",
-        "image": "/image_project/vision8.png",
-        "explanation": "Designed and deployed a vision-based inspection system for automated defect detection, dimensional verification, and quality assurance on production lines."
+    "id": "proj-006",
+    "title": "Integrated Optical Inspection & Packing Automation Line",
+    "type": "Industrial Automation / Vision Integration",
+    "image": "/image_product/optical-line.png",
+    "explanation": "Designed and implemented a complete automated production line integrating part feeding, high-speed optical inspection, defect sorting, and automated packing. The system includes PLC-HMI control, vision processing software, and production data logging to improve inspection accuracy, reduce manual handling, and increase overall throughput."
     },
     {
         "id": "proj-002",
         "title": "Industrial Wireless Communication System",
         "type": "Communication / Networking",
-        "image": "/image_project/Industrial Wireless Communication System.png",
+        "image": "/image_project/Industrial Wireless Communication System1.png",
         "explanation": "Implemented a long-range industrial wireless communication system enabling reliable data transmission between machines and control systems across the plant, supporting stable wireless connectivity up to 1 km in industrial environments."
     },
     {
@@ -36,10 +36,17 @@
     },
     {
         "id": "proj-006",
-        "title": "RFID-Based Fluid Dispenser System",
+        "title": "RFID-Based Fluid Dispenser System(Fuel)",
         "type": "RFID / Automation",
         "image": "/image_project/rfid1.png",
         "explanation": "Implemented an RFID-enabled fluid dispensing system to ensure controlled dispensing, user authentication, and accurate consumption tracking."
+    },
+    {
+        "id": "proj-003",
+        "title": "Vision-Based Product Inspection System",
+        "type": "Vision / Automation",
+        "image": "/image_project/vision8.png",
+        "explanation": "Designed and deployed a vision-based inspection system for automated defect detection, dimensional verification, and quality assurance on production lines."
     },
     {
         "id": "proj-005",

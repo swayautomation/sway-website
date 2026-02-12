@@ -41,7 +41,7 @@ const Home = () => {
             {/* Hero Section */}
             <section className="bg-secondary text-white py-20 lg:py-32 relative overflow-hidden">
                 <div
-                    className="absolute inset-0 opacity-10 bg-cover bg-center"
+                    className="absolute inset-0 opacity-20 bg-cover bg-center"
                     style={{ backgroundImage: `url(${img1})` }}
                 ></div>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
@@ -148,7 +148,7 @@ const Home = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {services.slice(0, 4).map((service) => (
-                            <div key={service.id} className="flex flex-col sm:flex-row p-6 border border-gray-100 rounded-xl hover:bg-blue-50 transition-colors">
+                            <div key={service.id} className="flex flex-col sm:flex-row p-6 border border-gray-300 rounded-xl hover:bg-blue-50 transition-colors">
                                 <div className="flex-shrink-0 mb-4 sm:mb-0 sm:mr-6">
                                     <div className="w-16 h-16 bg-blue-100 text-primary rounded-full flex items-center justify-center">
                                         <Settings size={32} />
@@ -217,12 +217,12 @@ const Home = () => {
                                         </div>
                                     </div>
 
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent flex flex-col justify-end p-6 md:p-8 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                                        <span className="text-primary font-bold text-sm mb-2">{project.type}</span>
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-6 md:p-8 translate-y-4">
+                                        {/* <span className="text-primary font-bold text-sm mb-2">{project.type}</span> */}
                                         <h3 className="text-white text-2xl font-bold mb-2">{project.title}</h3>
-                                        <p className="text-gray-300 line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                                        {/* <p className="text-gray-300 line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
                                             {project.explanation}
-                                        </p>
+                                        </p> */}
                                     </div>
                                 </div>
                             ))}
